@@ -2,6 +2,7 @@
     --gap-scale-factor: 250;
 }
 
+
 html, body {
     height: 100%;
     margin: 0;
@@ -11,11 +12,14 @@ html, body {
 
 body {
     display: flex;
+    margin-top: 0px;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin: 0;
-    padding: 75px 0;
+    padding: 0;
+    min-height: 100vh;
     background: linear-gradient(#ffffff, #f9d6d6);
     font-family: "Steph", sans-serif;
 }
@@ -33,11 +37,13 @@ body {
 }
 
 .container {
+    margin-top: 0px;
     max-width: 100%;
-    margin: 20px auto 0 auto;
+    margin: 0 auto;
 }
 
 #togepi-gif {
+    margin-top: 0px;
     width: 500px;
     height: 400px;
     object-fit: cover;
@@ -46,6 +52,21 @@ body {
 h1 {
     font-size: 3rem;
     margin: 50px auto;
+}
+
+.message-text {
+    width: 100%;
+    max-width: 700px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 8px 16px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.message-text p {
+    margin: 0 0 12px 0;
 }
 
 .btn-container {
@@ -88,7 +109,7 @@ button:hover {
 }
 
 body {
-    padding-top: 70px;
+    padding: 0;
 }
 .container {
     max-width: 100%;
@@ -131,7 +152,7 @@ button {
     --gap-scale-factor: 50;
 }
 body {
-    padding-top: 100px;
+    padding: 0;
 }
 .container {
     max-width: 100%;
